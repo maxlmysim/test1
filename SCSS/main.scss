@@ -16,4 +16,32 @@
 
 //themes
 
+.container {
+  display: flex;
+flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  padding: 15px;
+  margin: 15px;
+  flex-basis: 30%;
+}
+
+.one {
+  background-color: red;
+
+}
+
+.second {
+  background-color: green;
+}
+
+.third {
+  background-color: blue;
+}
